@@ -157,6 +157,8 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+-- When on, Vim will change the current working directory whenever you open a file, switch buffers, delete a buffer or open/close a window.
+vim.opt.autochdir = true
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
